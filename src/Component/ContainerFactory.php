@@ -46,6 +46,7 @@ class ContainerFactory extends AbstractComponentFactory
     {
         $table = $this->table($element->getAttributes());
         $this->addCssClass('container', $table);
+        $table->setAttribute('align', 'center');
 
         $tbody = $this->tbody();
         $tr = $this->tr();
