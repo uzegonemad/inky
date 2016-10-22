@@ -119,7 +119,7 @@ class SpacerFactoryTest extends AbstractComponentFactoryTest
                                 </row>
                             </wrapper>
                         </container>',
-            'to' => '<table class="container">
+            'to' => '<table class="container" align="center">
                         <tbody>
                             <tr>
                                 <td>
